@@ -15,9 +15,7 @@
   Execute the program to generate coverage data:
     
         ./build/app
-        
         ./build/app --help
-        
         ./build/app first second third fourth
         
   

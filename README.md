@@ -4,6 +4,10 @@
 ## How to build to generate coverage reports
 ---
 
+- **Create a build directory**
+
+        mkdir build
+
 - **Compile in the build directory**
 
   Compile both source files with coverage flags:

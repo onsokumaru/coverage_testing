@@ -1,2 +1,9 @@
 # --- project: coverage_testing .gitignore --- #
+app
 build/*
+lcov-report/*
+gcov-report/*
+src/*.o
+src/*.gcno
+src/*.gcda
+src/*.gcov

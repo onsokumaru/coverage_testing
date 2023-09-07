@@ -13,8 +13,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: echo
-      run: echo 'is this working'
+    - name: make
+      run: make app
+    - name: run
+      run: ./app --help
+    - name: coverage
+      run: make coverage
+
     # - name: configure
     #   run: ./configure
     # - name: make

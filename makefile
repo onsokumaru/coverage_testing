@@ -6,7 +6,7 @@ DISTDIR = $(TARNAME)-$(VERSION)
 CC = gcc
 CFLAGS = -fprofile-arcs -ftest-coverage
 
-all clean app:
+all clean app coverage:
 	cd src && $(MAKE) $@
 
 main.o: 
@@ -14,8 +14,5 @@ main.o:
 
 functions.o: 
 	cd src && $(MAKE) $@
-
-coverage:
-	# gcov $(SRC_DIR)/main.c $(SRC_DIR)/functions.c
 
 .PHONY: all clean app

@@ -31,7 +31,7 @@
   Navigate to the build directory and generate the HTML report:
   
         lcov --directory . --capture --output-file coverage.info
-        genhtml coverage.html --output-directory coverage_html
+        genhtml coverage.info --output-directory coverage_html
         
 - **View the Report**
 
